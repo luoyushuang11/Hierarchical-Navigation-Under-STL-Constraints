@@ -1,4 +1,4 @@
-# Hierarchical Navigation Under STL Constrains: RL Global Planner & CBF-MPPI Local Controller
+# Hierarchical Navigation Under STL Constraints: RL Global Planner & CBF-MPPI Local Controller
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10-blue)
