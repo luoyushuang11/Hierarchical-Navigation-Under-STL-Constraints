@@ -1,7 +1,3 @@
-
-
-Uploading fast_overtake.mp4…
-
 # Hierarchical Navigation Under STL Constrains: RL Global Planner & CBF-MPPI Local Controller
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
