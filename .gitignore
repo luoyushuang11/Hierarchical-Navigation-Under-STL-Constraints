@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# C++ / CUDA 
+*.so
+*.o
+build/
+devel/
+
+# IDE
+.vscode/
+.idea/
+
+# Data & Logs
+*.log
+results/
