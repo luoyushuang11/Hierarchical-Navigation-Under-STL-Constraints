@@ -23,7 +23,11 @@ Rather than treating global and local planning as isolated modules, our architec
 
 *Watch the robot execute dynamic overtaking maneuvers among target vehicles with varying speeds using our hierarchical framework:*
 
-<video src="./assets/fast_overtake.mp4" controls="controls" width="100%" autoplay loop></video>
+
+
+https://github.com/user-attachments/assets/7401dfcf-27c4-434a-815d-17efebcf354a
+
+
 
 *(Note: If the video does not render in your Markdown viewer, please find the source file in the `./assets/` directory.)*
 
