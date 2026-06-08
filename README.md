@@ -14,7 +14,7 @@ Rather than treating high-level planning and low-level control as isolated modul
 ### 🌟 Core Architecture & Innovations:
 
 * **High-Level Planner:** Acting as the high-level planner, the algorithm samples the optimal arrival time points for various sub-target regions at the initial stage of the task. It simultaneously generates a reference trajectory in real time to guide the low-level system.
-* **Low-level Controller:** To strictly satisfy the temporal logic requirements defined by STL, the low-level controller constructs two distinct Time-Varying constraints:
+* **Low-Level Controller:** To strictly satisfy the temporal logic requirements defined by STL, the low-level controller constructs two distinct Time-Varying constraints:
   1. A time-varying constraint based on the sub-target arrival time points optimized by the high-level RL planner.
   2. A time-varying constraint based on the final deadline specified by the overall task requirements.
 * **Guided MPPI for High-Efficiency Sampling:** A known bottleneck of standard MPPI is its sampling inefficiency in complex spaces. Our framework utilizes the reference trajectory provided by the high-level RL planner to actively guide and bias the MPPI's sampling distribution. This significantly enhances the sampling efficiency and computational real-time performance of the low-level controller.
