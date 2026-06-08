@@ -43,3 +43,42 @@ The framework relies heavily on GPU acceleration for real-time MPPI sampling. Th
 ```bash
 git clone [https://github.com/luoyushuang11/A-Bi-Level-Neural-guided-Path-Integral-Framework.git](https://github.com/luoyushuang11/A-Bi-Level-Neural-guided-Path-Integral-Framework.git)
 cd NG_PI
+**2. Create and activate the Conda environment**
+```bash
+# Create environment from environment.yml
+conda env create -f environment.yml
+
+# Activate the environment
+conda activate cbf_mppi_env
+```
+*(Alternatively, you can install dependencies via pip: `pip install -r requirements.txt`)*
+
+## 🚀 Quick Start
+
+The project is modularized into highly independent simulation scenarios. To run a simulation, simply navigate to the desired scenario directory and execute the `rlmppi.py` script.
+
+For example, to run the dynamic overtaking scenario shown in the demonstration:
+```bash
+cd simulation_overtake_fast
+python3 rlmppi.py
+```
+
+## 📁 Project Structure & Scenarios
+
+The repository includes 9 comprehensive benchmarks covering mazes, autonomous overtaking, and reach-avoid tasks:
+
+```text
+CBF_MPPI/
+├── simulation_maze_dualdyn/           # Maze scenario with 2 dynamic obstacles
+├── simulation_maze_simple/            # Basic static maze scenario
+├── simulation_maze_singledyn/         # Maze scenario with 1 dynamic obstacle
+├── simulation_overtake_fast/          # Fully heterogeneous-speed dynamic obstacles scenario
+├── simulation_overtake_normal/        # Partially heterogeneous-speed dynamic obstacles scenario
+├── simulation_overtake_slow/          # Homogeneous-speed dynamic obstacles scenario
+├── simulation_reach_avoid_disordered/ # Reach-avoid task with disordered obstacles
+├── simulation_reach_avoid_ordered9/   # Reach-avoid task with 9 ordered obstacles
+├── simulation_reach_avoid_ordered13/  # Reach-avoid task with 13 ordered obstacles
+├── assets/                            # Media assets (e.g., demo videos)
+├── environment.yml                    # Conda environment configuration
+└── requirements.txt                   # Pip dependencies
+```
