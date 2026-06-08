@@ -55,7 +55,7 @@ conda activate ngpi_env
 The project is modularized into highly independent simulation scenarios. To run a simulation, simply navigate to the desired scenario directory and execute the `rlmppi.py` script.
 
 For example, to run the dynamic overtaking scenario shown in the demonstration:
-```bash
+
 cd simulation_overtake_fast
 python3 rlmppi.py
 ```
