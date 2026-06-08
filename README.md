@@ -39,11 +39,11 @@ The framework relies heavily on GPU acceleration for real-time MPPI sampling. Th
 
 ## 🛠️ Installation
 
-**1. Clone the repository**
+**Clone the repository**
 ```bash
 git clone [https://github.com/luoyushuang11/A-Bi-Level-Neural-guided-Path-Integral-Framework.git](https://github.com/luoyushuang11/A-Bi-Level-Neural-guided-Path-Integral-Framework.git)
 cd NG_PI
-**2. Create and activate the Conda environment**
+**Create and activate the Conda environment**
 ```bash
 # Create environment from environment.yml
 conda env create -f environment.yml
