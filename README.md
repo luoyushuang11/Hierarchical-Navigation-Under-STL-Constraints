@@ -50,7 +50,7 @@ cd NG_PI
 conda env create -f environment.yml
 conda activate ngpi_env
 
-# 3.Quick Start
+# 3. Quick Start
 cd simulation_overtake_fast
 python3 rlmppi.py
 ```
